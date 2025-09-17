@@ -1,4 +1,4 @@
-import commonAPI from "./commonApi";
+import commonAPI from "./commonAPI";
 import SERVER_URL from "./serverUrl";
 
 // register api 
