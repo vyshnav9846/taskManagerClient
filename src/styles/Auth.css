@@ -1,0 +1,170 @@
+/* Authentication pages (Login/Signup) */
+.auth-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.auth-card {
+  flex: 1;
+  max-width: 500px;
+  padding: 40px;
+  background-color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth-info {
+  flex: 1;
+  background-color: #0056b3;
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.auth-header h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.auth-header p {
+  color: #666;
+}
+
+.auth-error {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 12px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.auth-form {
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: #333;
+}
+
+.auth-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-button:hover {
+  background-color: #004494;
+}
+
+.auth-footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.auth-footer p {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.auth-footer a {
+  color: #0056b3;
+  font-weight: 500;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #666;
+  font-size: 14px;
+}
+
+.auth-info h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.auth-info p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.benefits-list {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.benefits-list li {
+  margin-bottom: 15px;
+  position: relative;
+  padding-left: 30px;
+}
+
+.benefits-list li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.demo-credentials {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.demo-credentials h3 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.demo-credentials p {
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .auth-container {
+    flex-direction: column;
+  }
+
+  .auth-card {
+    max-width: 100%;
+    order: 2;
+  }
+
+  .auth-info {
+    order: 1;
+    padding: 30px;
+  }
+}
+
